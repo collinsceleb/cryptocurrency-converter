@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.collinsceleb.cryptoconversion.CurrencyConverter">
+    <ImageView
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/currency"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#d9D1C4E9"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#880e4f"
+        android:layout_alignParentBottom="true"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#f8f9fd"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/cryto_currency"/>
+        <View
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="#d9D1C4E9"/>
+
+
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+</RelativeLayout>

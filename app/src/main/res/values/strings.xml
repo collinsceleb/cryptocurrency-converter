@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crypto Conversion</string>
+    <string name="country_codes">COUNTRY CODES</string>
+    <string name="eth_cryptocurrency">ETH</string>
+    <string name="btc_cryptocurrency">BTC</string>
+    <string name="code_one">CAD</string>
+    <string name="eth_price">ETH price</string>
+    <string name="btc_price">BTC price</string>
+</resources>

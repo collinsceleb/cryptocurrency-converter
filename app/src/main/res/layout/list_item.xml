@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fd"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/country_codes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/country_codes"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/code_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/code_one"
+            style="@style/crypoprice"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/eth_cryptocurrency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eth_cryptocurrency"
+            style="@style/cryptocurrency"
+            />
+        <TextView
+            android:id="@+id/eth_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eth_price"
+            style="@style/crypoprice"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/btc_cryptocurrency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btc_cryptocurrency"
+            style="@style/cryptocurrency"
+            />
+        <TextView
+            android:id="@+id/btc_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btc_price"
+            style="@style/crypoprice"/>
+    </LinearLayout>
+
+</LinearLayout>
